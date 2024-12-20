@@ -1,0 +1,261 @@
+/* src/Components/ShareButtons.css */
+.share-buttons-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .share-button {
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  /* src/Components/ListView.css */
+
+.pdf-item {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.pdf-thumbnail {
+  margin: 10px 0;
+  width: 100px; /* Width of thumbnail */
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.view-button {
+  display: inline-block;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;/* ReaderView.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.reader-view {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.back-button {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #007BFF;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+.pdf-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.pdf-controls {
+  margin-bottom: 20px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.pagination-button {
+  padding: 8px 16px;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination-button:hover {
+  background-color: #218838;
+}
+
+.page-number {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.pdf-container {
+  margin: 20px 0;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.loading-message {
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.pdf-embed {
+  width: 100%;
+  height: 500px;
+  border: none;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .pdf-title {
+    font-size: 20px;
+  }
+
+  .pagination {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .pagination-button {
+    width: 100px;
+    font-size: 12px;
+  }
+
+  .pdf-embed {
+    height: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .reader-view {
+    padding: 10px;
+  }
+
+  .pdf-title {
+    font-size: 18px;
+  }
+
+  .pagination-button {
+    font-size: 10px;
+    padding: 6px 12px;
+  }
+
+  .pdf-embed {
+    height: 300px;
+  }
+}
+
+}
+
+.view-button:hover {
+  background-color: #0056b3;
+}
+
+  .share-button:hover {
+    background-color: #ddd;
+  }
+  
+  .main-share {
+    background-color: #007BFF;
+    color: #fff;
+  }
+  
+  .share-popup {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 300px;
+  }
+  
+  .close-popup {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .share-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .share-button span {
+    display: block;
+    font-size: 0.8em;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .twitter {
+    color: #1da1f2;
+  }
+  
+  .facebook {
+    color: #3b5998;
+  }
+  
+  .reddit {
+    color: #ff4500;
+  }
+  
+  .discord {
+    color: #7289da;
+  }
+  
+  .whatsapp {
+    color: #25d366;
+  }
+  
+  .messenger {
+    color: #0078ff;
+  }
+  
+  .telegram {
+    color: #0088cc;
+  }
+  
+  .email {
+    color: #d93025;
+  }
+  
+  .copy {
+    color: #333;
+  }
+  
